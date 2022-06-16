@@ -1,0 +1,256 @@
+/************        HTML ELEMENTS      ********************/
+
+body{
+font-family: 'Averia Serif Libre', cursive;
+}
+
+h1{ font-family: 'Montserrat', sans-serif;
+line-height: 1.5; 
+font-size: 3rem;
+color:white;
+padding-top: 80px;
+padding-bottom: 30px;
+  }
+  
+  h3{
+    font-size: 20px;
+  }
+
+/********************   CLASSES   *******************/
+
+.container-fluid{
+  padding:5% 8% 10%;
+}
+
+.heading{
+  color:#8f8f8f;
+}
+
+.dog-info{
+color:#ffcbcb;
+line-height:30px;
+font-size: 22px;
+background-color:black;
+
+}
+.dog-head{
+font-size: 22px;
+background-color: black;
+margin-left:40%;
+margin-right:40%;
+}
+
+.labra-head{
+  font-family: Montserrat;
+  font-size: 60px;
+}
+.rott{
+  position: relative;
+  left: 250px;
+}
+
+.download{
+margin-right: 10px;
+}
+
+.title-phone{
+height:600px;
+width:300px;
+padding-top: 50px;
+transform: rotate(20deg);
+padding-left: 20px;
+position: absolute;
+right: 25%;
+}
+
+.navbar-brand{
+  font-family:ubuntu;
+}
+.nav-item{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.icons{
+margin-bottom: 1rem;
+}
+.rottweiler{
+  height:500px;
+  width: 500px;
+}
+.labra{
+  height:500px;
+  width:500px;
+}
+.pug{
+  height: 500px;
+  width:500px;
+}
+.dogs{
+  position: relative;
+  left:27%;
+}
+
+.carousel-control-next{
+    background-color:#f0a500;
+}
+.carousel-control-prev{
+  background-color:#f0a500;
+}
+.labra-dog{
+
+  background-color:#f0a500;
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+  padding: 80px 0 80px 0;
+}
+
+.doggy{
+  width: 10%;
+border-radius: 200%;
+margin: 20px 20px 20px 20px;
+}
+
+.logos{
+  width: 15%;
+}
+
+.pricing-column{
+  padding: 2% 3%;
+}
+.last-line{
+  font-size:50px;
+}
+.last{
+  font-size: 20px;
+}
+.down{
+  margin-right: 20px;
+}
+
+.contact{
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.last-logos:hover{
+  height: 40px;
+  width: 40px;
+}
+.last-logos{
+  padding-right: 20px;
+  height: 50px;
+  width: 50px;
+  
+}
+.youtube{
+  height: 42px;
+  width: 58px;
+}
+.youtube:hover{
+  height: 32px;
+  width: 48px;
+}
+
+.owner{
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.end{
+  text-align: center;
+}
+/*******************     ID'S     *****************/
+
+#logos{
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+ 
+}
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  z-index: 1;
+  position:relative ;
+}
+
+#footer{
+  text-align: center;
+}
+
+#title{
+  background-color:#f0a500 ;
+}
+
+#testimonials{
+  padding:0 50px 0 50px;
+}
+
+#press{
+  text-align: center;
+    background-color:#f0a500;
+  padding: 10px 30px 50px;
+  margin-bottom: 100px;
+}
+
+#pricing{
+  padding: 70px;
+  text-align: center;
+}
+
+#logos{
+margin-top: 50px;
+  text-align: center;
+}
+
+#cta{
+  text-align: center;
+padding: 40px 20px;
+color: white;
+line-height:6;
+  background-color:#686d76;
+}
+
+/**********************     MEDIA QUERY      *****************/
+
+@media (max-width :992px)
+{
+  .title-phone
+  {
+    position: static;
+    transform: rotate(0);
+  }
+#title{
+text-align: center;
+}
+}
+
+
+@media (max-width:1155px){
+.carousel-item{
+  text-align:center;
+}
+.dogs{
+  width:100%;
+  height:100%;
+padding-right: 50%;
+}
+.labra{
+  height:20rem;
+}
+}
+@media (max-width:560px){
+  .labra{
+    height:200px;
+  }
+  .labra-head{
+    font-size: 40px;
+  }
+}
